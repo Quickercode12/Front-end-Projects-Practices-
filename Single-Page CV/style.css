@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container {
+  max-width: fit-content;
+  border: 2px solid black;
+  padding: 2rem;
+  border-radius: 2px;
+}
+
+.Container > div {
+  margin: 10px 0 0 0;
+}
+.Container h4 {
+  color: rgb(129, 233, 26);
+  margin: 5px 0 5px 0;
+}
+
+.Container h3 {
+  color: rgb(13, 28, 186);
+  font-size: 15px;
+  margin: 5px 0 5px 0;
+}
+
+.Container ul {
+  margin: 5px 0 5px 15px;
+}
